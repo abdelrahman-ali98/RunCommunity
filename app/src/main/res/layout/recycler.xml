@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/myContainer"
+    android:layout_marginTop="5sp"
+    android:layout_marginBottom="5sp"
+    android:background="#FFE4E1"
+    android:layout_marginLeft="8sp"
+    android:layout_marginRight="8sp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/usernamE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username here"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/mDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"/>
+
+    <TextView
+        android:id="@+id/mDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:text="Date"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_height="200dp"
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="8sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernamE">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Distance"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/mDistance"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:text="Distance Value"
+                android:textColor="#9C27B0"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="Calories" />
+
+            <TextView
+                android:id="@+id/cals"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="#9C27B0"
+                android:text="0000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="3sp"
+            android:layout_height="match_parent"
+            android:background="#44104D" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Time"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:id="@+id/mTime"
+                android:text="time value"
+                android:textColor="#9C27B0"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="Avg.Speed"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:id="@+id/mAvgSpeed"
+                android:gravity="center"
+                android:text="Avg.Speed Value"
+                android:textColor="#9C27B0"
+                android:textSize="25sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3sp"
+                android:background="#44104D" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:layout_marginLeft="8dp"
+        android:textSize="25sp"
+        android:textColor="#9C27B0"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

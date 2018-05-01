@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myRuns"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Runs" />
+        <item
+            android:id="@+id/startRunning"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Go running" />
+        <item
+            android:id="@+id/feedsNews"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Feeds" />
+    </group>
+
+    <item android:title="We gonna miss you">
+        <menu>
+            <item
+                android:id="@+id/logOut"
+                android:icon="@drawable/com_facebook_tooltip_blue_xout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2sp"
+    android:background="#FFE4E1"
+    android:layout_marginBottom="3sp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pushedUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#9C27B0"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/pushedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Date"
+            android:textSize="15sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="5sp"
+            android:textColor="@color/colorPrimary" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/pushedDetails"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginTop="10sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/mImageButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shadow"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="3sp"
+            android:layout_marginBottom="5sp"
+            android:paddingBottom="2sp"
+            android:paddingTop="2sp"
+            android:src="@android:drawable/btn_star_big_off"/>
+
+        <TextView
+            android:id="@+id/mCounterId"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5sp"
+            android:layout_marginLeft="3sp"
+            android:layout_marginBottom="5sp"
+            android:background="@drawable/shadow"
+            android:text="000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
