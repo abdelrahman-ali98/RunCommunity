@@ -13,4 +13,7 @@ Sqlite Datebase for runs history using Content Provider.
 
 ![Sqlite Datebase with history](https://github.com/abdelrahman-ali98/RunCommunity/blob/master/UNADJUSTEDNONRAW_thumb_25ce.jpg)
 
+Updated version which allows user to share thier experince with other follwers with Like Button.
+We keep tracking number of likes in real time using FireBase RealTime.
 
+![Star Button] (https://github.com/abdelrahman-ali98/RunCommunity/blob/master/UNADJUSTEDNONRAW_thumb_25cc.jpg)
